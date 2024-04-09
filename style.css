@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.content{
+	text-align: center;
+}
+
+.relative{position:relative; width:1000px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(291,291,291,0.5);
+padding:30px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#000000;}
+
+.jumbotron{
+	margin-top: 10px;
+	padding-left: 25%;
+	padding-right: 25%;
+	background-color: #424141;
+}
+.thumbnail a>img, .thumbnail>img{
+	border-radius: 30px;
+}
+
+.centre{
+	text-align: left;
+}
+
+.btn.btn-primary.btn-lg {
+  background-color: #333; /* Dark grey color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+ }
+ 
+ .btn.btn-primary.btn-lg:hover {
+  background-color: #555; /* Darker grey on hover */
+ }
+
+ .space-between {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+ 
+
+
+#left{padding-left: 20px}
+
+#fade{
+	color: #000000;
+}
+
+#flip{color:#fc0362;}
+
+
+
+
+#down{
+	padding-top: 10px
+}
+
+
+#brand{
+	color: #fc0362;
+	font-family: 'Lobster';
+}
+.jumbotron {
+    width: 100%;
+    background-color: #d1cccc;
+    padding: 40px 0;
+    text-align: start;
+  }
+
+  .feedback-form {
+    display: inline-block;
+  }
+
+  .feedback-label {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: 1200;
+    font-family:  sans-serif;
+  }
+  .feedback-input {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #000000;
+    border: 5px white;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; 
+  }
+
+  .submit-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4b76c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s;
+  }
+
+  .submit-btn:hover {
+    background-color: #2c5aa8; 
+  }
